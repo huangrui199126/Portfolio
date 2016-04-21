@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RUI HUANG</title>
+        <% include head.ejs %>
+
+
+        <link href="css/2048.css" rel="stylesheet">
+
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">  
+        <link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-640x920.png"  media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)">  
+        <images/ name="apple-mobile-web-app-capable" content="yes">
+            <images/ name="apple-mobile-web-app-status-bar-style" content="black">
+
+                <images/ name="HandheldFriendly" content="True">
+                    <images/ name="MobileOptimized" content="320">
+                        <images/ name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+                            <script src="js/2048/bind_polyfill.js"></script>
+                            <script src="js/2048/classlist_polyfill.js"></script>
+                            <script src="js/2048/animframe_polyfill.js"></script>
+                            <script src="js/2048/keyboard_input_manager.js"></script>
+                            <script src="js/2048/html_actuator.js"></script>
+                            <script src="js/2048/grid.js"></script>
+                            <script src="js/2048/tile.js"></script>
+                            <script src="js/2048/local_storage_manager.js"></script>
+                            <script src="js/2048/game_manager.js"></script>
+                            <script src="js/2048/application.js"></script>
+                            </head>
+
+                        <script src="js/weather.js"></script>
+<!--                        <script src="js/clock.js"></script>-->
+
+                        </head>
+
+
+                    <body>
+
+                        <!--     Navigation & Header -->
+                        <% include header.ejs %>
+
+
+                        <!--     Background-->
+                        <canvas id="background" width="auto" height="auto" class="container background" ></canvas>
+                        <div class="home row">
+<!--                            <div class="component col-md-6">-->
+                            <!--    clock-->
+<!--                            <canvas id="clock" width="auto" height="auto" class="clock" ></canvas>-->
+                            <!--    Weather-->
+                            <div id="weather" class="weather  col-md-6">
+                                <p class="weather">Weather Channel:</p></div>
+                                </div>
+                            <!--    2048-->
+                            <% include 2048.ejs %>
+                        </div>
+                        <% include footer.ejs %>
+                        <!--     Default Javascript -->
+                        <% include js.ejs %>
+
+                    </body>
+
+                    </html>

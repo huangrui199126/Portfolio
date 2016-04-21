@@ -1,0 +1,199 @@
+body {
+    padding: 4%;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+h2,h3,p{
+font-family: georgia,"times new roman",times,serif;
+}
+
+
+
+a {
+    color: #00B7FF;
+}
+
+.navbar.headerNav{
+    position:absolute;
+  float: left;
+    z-index: 1000;
+    }
+
+.background {
+    margin: 0 auto;
+    width:100%;
+    height:100%;
+    min-width: 1000px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index:-1;
+}
+
+.footer{
+  bottom: 0;
+  left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+  width: 100%;
+}
+
+/*
+@media screen and(max-width:520px){
+
+    .clock{
+        display: none;
+    }
+}
+*/
+
+.weather{
+    position: relative;
+    margin-top: 2%;
+    text-align: left;
+    z-index:1000;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+}
+
+
+.clock{
+    position: relative;
+    margin-top: 2%;
+    height:auto;
+    float:left;
+    z-index:1000;
+    overflow: auto;
+}
+
+
+
+
+.mettelImage,
+{
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+}
+.mettelImage img,
+.youtubesContainer iframe{
+    float: left;
+    border: 1px solid #0000ff;
+    width: 100%;
+    height:auto;
+}
+
+
+.home,
+.mettelWork{
+padding: 5%;
+}
+
+.gameControl{
+    display: block;
+    background-color: transparent;
+    border: none;
+    float:right;
+    margin-left:5%;
+}
+.game.container{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#defaultCanvas {
+display: relative;
+    width:100%;
+    height:auto;
+    height:auto;
+    margin-left: 10%;
+}
+
+.gameFooter .footer{
+display: fixed;
+}
+
+.description{
+    padding-left: 5%;
+        color:green;
+    font-size: 14px;
+text-align:left;
+}
+.fa.fa-instagram,
+.fa.fa-linkedin,
+.fa.fa-facebook,
+.fa.fa-github{
+font-size: 1.8em;
+}
+
+header {
+    text-align: center;
+    background: transparent;
+/*
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../images/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+*/
+}
+
+
+header .intro-text {
+    padding-top: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    
+    color:deepskyblue;
+    font-style: italic;
+    line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color:deepskyblue;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.page-scroll{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color:crimson;
+}
+
+.navbar-brand.page-scroll,
+.navbar-default .navbar-nav>li>a{
+color: crimson;
+}
+
+.navbar-default{
+background-color: transparent;
+    border: none;
+}
+
+.navbar-collapse.collapse.in{
+border:none;
+} 
+
+
+.logoImage{
+top:-5px;
+    left:0px;
+    border-radius: 200px;
+    background: :transparent;
+    height: :60px;
+    width:60px;
+    position: absolute;
+
+}
